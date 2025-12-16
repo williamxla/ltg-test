@@ -21,7 +21,6 @@ const router = useRouter();
 const { mobile, tablet } = useMobileTablet();
 const { handleDownloadPageNavigation } = useLauncherDownload();
 
-// Load Games Portal SDK
 useHead({
 	script: [
 		{
